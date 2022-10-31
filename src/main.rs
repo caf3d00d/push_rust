@@ -36,6 +36,6 @@ pub fn main() {
         println!("The stack is already sorted!");
         exit(127);
     }
-    println!("{:?}", stacks.stack_a);
-    stacks::sa(&mut stacks);
+    // println!("{:?}", stacks.stack_a);
+    stacks::sort(&mut stacks);
 }
